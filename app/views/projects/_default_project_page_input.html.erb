@@ -1,0 +1,4 @@
+<p>
+  <label><%= l(:label_set_default_project_page) %></label>
+  <%= select_tag 'project[default_project_page]', options_for_select(pages, project.default_project_page) %>
+</p>
